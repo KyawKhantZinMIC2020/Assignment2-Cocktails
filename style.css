@@ -1,0 +1,267 @@
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+
+			h1
+			{
+				text-align: center;
+				padding-top:5px;
+				color: #db1689;
+			}
+
+			hr
+			{
+				color: yellow;
+			}
+
+
+			@font-face
+			{
+				font-family: "AsYouLike";
+				src:url("CSS_font/Pacifico-Regular.ttf");
+			}
+			span
+			{
+				font-family: "AsYouLike";
+				font-size: 25px;
+				display: inline-block;
+				color: white;
+				padding-bottom: 15px;
+			}
+			header
+			{
+				background-color:#db1689;
+				width:100%;
+				height:80px;
+			}
+			header span
+			{
+				float: right;
+				padding-top: 25px;
+				color: white;
+			}
+
+			header img
+			{
+				float: right;
+				width: 60px;
+				height: 50px;
+				padding-top: 10px;
+				padding-left: 20px;
+			}
+			.navlinks
+			{
+				background-color:yellow;
+				color:blue;
+				padding:5px;
+				margin-left:10px;
+				margin-left:10px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-size:14px;
+				text-decoration:none;
+				border-radius: 7px;
+			}
+			#mainNav
+			{ 		margin-top:52px;
+				float:left;
+			}
+			.navlinks:hover
+			{
+				background-color:#FFF;
+				color:#903;
+			}
+
+
+			.boxes
+			{   background-color:skyblue;
+				width:30%;
+				height:350px;
+				padding:20px;
+				text-align:center;
+				margin-left: 35%;
+				margin-top:30px;
+				margin-bottom:20px;
+				border:solid 2px #000;
+				border-radius:10px;
+				box-shadow:5px 5px 2px #333;
+			}
+
+			.boxes img
+			{	
+				height: 180px;
+				width: 200px;
+				padding-top: 30px;
+				padding-left: 20px;
+			}
+
+			.tbl_book
+			{
+				background-color:rgb(0,0,0,0.3);
+				padding-bottom: 70px;
+			}
+			.tbl_book table
+			{		
+				border: 1px solid pink;
+				font-size: 20px;
+				color: brown;
+				width: 10%;
+				height: 50%;
+				display: inline-block;
+				border-radius:10px;
+			}
+
+			#text
+			{
+				display: inline-block;
+			}
+
+			.container
+			{
+				background-color: skyblue;
+			}
+			
+			
+			label
+			{
+				font-size: 20px;
+				color: brown;
+			}
+			#inputAddress
+			{	
+				background-color: blue;
+				border-radius: 10px;
+				width: 70%;
+				height: 50px;
+			}
+
+
+			.card_box
+			{
+				max-width: 16%;
+				margin-left: 8%;
+				margin-top: 40px;
+				display: inline-block;
+			}
+
+			.card_box .box
+			{
+				max-width: 100%;
+				box-shadow: 0 0 10px #000000;
+				margin-bottom: 30px;
+			}
+
+			.box img
+			{
+				width: 100%;
+			}
+
+			.box h4
+			{
+				text-align: center;
+			}
+
+			.rating
+			{
+				text-align: center;
+				/*margin-bottom: 50%;*/
+			}
+
+			.buybtn
+			{
+				width: 100%;
+				padding: 5px;
+				background-color:#db1689;
+				border:none; 
+				color: white;
+			}
+
+
+			#f2
+			{
+				display: inline-block;
+			}
+			#f2 input
+			{
+				background-color: pink;
+				border-radius: 10px;
+				width: 30%;
+				height: 20px;
+			}
+
+			Button
+			{
+				background-color: pink;
+				border-radius: 10px;
+				width: 10%;
+				height: 20px;
+			}
+			Button:hover
+			{
+				background-color: blue;
+				color: pink;	
+			}
+			footer
+			{
+				position:fixed;
+				left:0;
+				bottom:0;
+				width:100%;
+				line-height:50px;
+				background-color:rgba(0,0,0,0.4);
+				color:yellow;
+				text-align:center;
+				display:block;
+
+			}
+
+			.foot1 a 
+			{
+				text-decoration: none;
+				color:#fff;
+				font-size: 20px;
+			}
+
+			.foot2 i
+			{
+				padding: 10px;
+				color:yellow;
+			}
+
+			{
+				text-align: center;
+				padding-top: 5%;
+			}
+
+			.boxes1
+			{   background-color:skyblue;
+				width:28%;
+				height:220px;
+				padding:20px;
+				text-align:center;
+				float:left;
+				margin-left:20px;
+				margin-top:30px;
+				margin-bottom:20px;
+				border:solid 2px #000;
+				border-radius:10px;
+				box-shadow:5px 5px 2px #333;
+			}
+
+			.boxes1 img
+			{	
+				height: 150px;
+				width: 200px;
+				padding-top: 10px;
+				padding-left: 20px;
+			}
+
+			.about img
+			{
+				height: 300px;
+				width: 400px;
+				padding-top: 30px;
+				padding-left: 20px;
+			}
+
